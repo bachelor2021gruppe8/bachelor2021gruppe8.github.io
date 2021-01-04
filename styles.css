@@ -33,6 +33,7 @@ section {
 }
 
 #nav {
+  visibility: hidden;
   display: inline;
   margin-left: 20%;
 }
