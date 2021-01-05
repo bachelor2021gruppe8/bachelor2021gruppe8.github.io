@@ -1,10 +1,7 @@
-html {
-  font-family: 'Arial', sans-serif;
-  color: #424042;
-}
-
 body {
   margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #424042;
 }
 
 header {
@@ -14,28 +11,45 @@ header {
   color: black;
   text-align: center;
   margin-bottom: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-section {
-  margin-top: 10rem;
+#part1 {
+  margin: 15rem 0 10rem 0;
   text-align: center;
 }
 
-.container {
+#part2 {
+  background-color: #ffcf00;
+  width: 100%;
+  padding: 4rem 0 4rem 0;
   text-align: center;
-  padding: 0.5rem;
-  margin: 1rem auto;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  border-radius: 12px;
+}
+
+#part2 img {
+  margin: 2rem 3rem 0 3rem;
 }
 
 #osloMetLogo {
   display: inline;
-  margin-right: 20%;
+  margin-right: 25%;
 }
 
 #nav {
-  visibility: hidden;
   display: inline;
-  margin-left: 20%;
+  margin-left: 25%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
 }

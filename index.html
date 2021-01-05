@@ -8,28 +8,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://unpkg.com/vue@next" defer></script>
-  <script src="app.js" defer></script>
 </head>
 
 <body>
   <header>
     <div id="osloMetLogo">
-      <a href="https://www.oslomet.no/"><img src="./images/OsloMet_logo.png" alt="OsloMet logo"
-          width="85" height="50"></a>
+      <a href="https://www.oslomet.no/" target="_blank"><img src="./images/OsloMet_logo.png" alt="OsloMet logo" width="85"
+          height="50"></a>
     </div>
     <div id="nav">
-      <a href="">Om oss</a>
-      <a href="">Dokumenter</a>
+      <a class="link" href="#dokumenter">Dokumenter</a>
+      <!-- <a class="link" href="">Om oss</a> -->
     </div>
   </header>
   <div id="app">
-    <section>
-      <a href="https://www.nois.no/"><img src="./images/nois_logo_2.png" id="noisLogo" alt="OsloMet logo" width="150"
+    <div class="container" id="part1">
+      <a href="https://www.nois.no/" target="_blank"><img src="./images/nois_logo_2.png" id="noisLogo" alt="OsloMet logo" width="150"
           height="150"></a>
       <h1>Bachelorprosjekt 2021</h1>
       <h3>Gruppe 8</h3>
       <p>Mer info kommer!</p>
-    </section>
+    </div>
+    <div class="container" id="part2">
+      <h1>Dokumenter</h1>
+      <a href="./documents/Statusrapport.pdf" target="_blank" name="dokumenter"><img src="./images/Statusrapport_ikon.png" alt="Statusrapport.pdf link" width="200"></a>
+      <a href="./documents/Prosjektskisse.pdf" target="_blank"><img src="./images/Prosjektskisse_ikon.png" alt="Prosjektskisse.pdf link" width="200"></a>
+      <!-- <a href="./documents/Forprosjekt.pdf" target="_blank"><img src="./images/Forprosjekt_ikon.png" alt="Statusrapport.pdf link" width="200"></a>
+      <a href="./documents/Sluttrapport.pdf" target="_blank"><img src="./images/Sluttrapport_ikon.png" alt="Statusrapport.pdf link" width="200"></a> -->
+
+    </div>
 
   </div>
 </body>
