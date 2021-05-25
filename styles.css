@@ -15,10 +15,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+
 }
 
+
 #part1 {
-  margin: 15rem 0 10rem 0;
+  margin: 11rem 0 6rem 0;
   text-align: center;
 }
 
@@ -29,25 +33,17 @@ header {
   text-align: center;
 }
 
+#part3 {
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+}
+
 #part2 img {
   margin: 2rem 3rem 0 3rem;
 }
 
-#osloMetLogo {
-  display: inline;
-  margin-right: 25%;
-}
-
-#nav {
-  display: inline;
-  margin-left: 25%;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
+#oslo-met-logo {
+  margin-left: 5%;
 }
 
 .document {
@@ -59,4 +55,14 @@ header {
   transform: scale(1.2); 
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
+}
+
+.group-member {
+  display: inline-block ;
+  text-align: center;
+  margin: 0 2% 0 2%;
+}
+
+.picture {
+  display: block;
 }
